@@ -15,11 +15,9 @@ $(KEYBOARDS):
 
 	# cleanup old symlinks
 	rm -rf qmk_firmware/keyboards/v60_type_r/keymaps/$(USER)
-	rm -rf qmk_firmware/users/$(USER)
 
 	# add new symlinks
-	ln -s $(shell pwd)/sweep qmk_firmware/keyboards/v60_type_r/keymaps/$(USER)
-	ln -s $(shell pwd)/user qmk_firmware/users/$(USER)
+	ln -s $(shell pwd)/v60_type_r qmk_firmware/keyboards/v60_type_r/keymaps/$(USER)
 
 	# run lint check
 	# cd qmk_firmware; qmk lint -km $(USER) -kb $(NAME_$@)
@@ -29,7 +27,6 @@ $(KEYBOARDS):
 
 	# cleanup symlinks
 	rm -rf qmk_firmware/keyboards/v60_type_r/keymaps/$(USER)
-	rm -rf qmk_firmware/users/$(USER)
 
 clean:
 	rm -rf qmk_firmware/keyboards/v60_type_r/keymaps/$(USER)
