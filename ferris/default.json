@@ -1,0 +1,54 @@
+{    "version": 1,
+    "notes": "My awesome keymap",
+    "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+    "keyboard": "ferris/0_1",
+    "keymap": "default",
+    "layout": "LAYOUT_split_3x5_2",
+    "layers": [
+        [
+         "KC_Q"         , "KC_W"             , "KC_E"            , "KC_P"            , "KC_Y"                , "KC_F"        , "KC_G"            , "KC_C"                , "KC_R"            , "KC_L",
+         "LSFT_T(KC_A)" , "LGUI_T(KC_O)"     , "LALT_T(KC_E)"    , "LCTL_T(KC_U)"    , "KC_I"                , "KC_D"        , "LCTL_T(KC_H)"    , "LALT_T(KC_T)"        , "LGUI_T(6,KC_N)"  , "LSFT_T(KC_SCLS)",
+         "KC_COL"       , "KC_Q"             , "KC_J"            , "KC_K"            , "KC_X"                , "KC_B"        , "KC_M"            , "KC_W"                , "KC_V"            , "KC_Z",
+                                                                  "HYPR_T(KC_ESC)"   , "KC_SPC",                "KC_BKSP"  , "TO(1)"
+        ],
+
+        [
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_BTN1"     , "KC_WH_U"        , "KC_BTN2"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_BTN2"     , "KC_NO"          , "KC_BTN1"       , "KC_TRNS",                    "KC_TRNS"     , "KC_MS_L"     , "KC_MS_D"        , "KC_MS_U"       , "KC_MS_R",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_WH_L"     , "KC_WH_D"        , "KC_WH_R"       , "KC_TRNS",
+                                                            "TO(0)"       , "KC_TRNS",                    "KC_TRNS"     , "TO(2)"
+        ],
+
+        [
+         "KC_TRNS"     , "KC_TRNS"     , "KC_PGUP"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
+         "KC_LEFT"     , "KC_UP"       , "KC_DOWN"        , "KC_RGHT"       , "KC_TRNS",                    "KC_TRNS"     , "KC_LGUI"     , "KC_NO"          , "LCTL(KC_LALT)" , "LCA(KC_LSFT)",
+         "KC_TRNS"     , "KC_HOME"     , "KC_PGDN"        , "KC_END"        , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
+                                                            "TO(1)"         , "KC_TRNS",                    "KC_TRNS"     , "TO(3)"
+        ],
+
+        [
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+                                                            "TO(2)"         , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"
+        ],
+
+
+
+
+        [
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+                                                            "KC_TRNS"       , "KC_TRNS",                    "KC_BKSP"     , "KC_DEL"
+        ],
+
+        [
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+         "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"         , "KC_TRNS"       , "KC_TRNS",
+                                                            "KC_TRNS"       , "KC_TRNS",                    "KC_TRNS"     , "KC_TRNS"
+        ]
+    ],
+    "author": "@pierrec83"
+}
