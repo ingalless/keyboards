@@ -3,7 +3,7 @@
   "notes": "My awesome keymap",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "ferris/0_1",
-  "keymap": "ferris_0_1_default",
+  "keymap": "ingalless",
   "layout": "LAYOUT_split_3x5_2",
   "layers": [
     [
@@ -16,8 +16,8 @@
       "RSFT_T(KC_S)", "KC_SCLN", "KC_Q", "KC_J", "KC_K",
       "KC_X", "KC_B", "KC_M", "KC_W", "KC_V", "KC_Z",
 
-      "HYPR(KC_ESC)", "KC_SPC",
-      "KC_BSPC", "TO(1)"
+      "HYPR(KC_ESC)", "LT(4, KC_SPC)",
+      "LT(5, KC_BSPC)", "TO(1)"
     ],
     [
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
@@ -50,7 +50,7 @@
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
 
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+      "KC_TRNS", "QK_BOOT", "KC_TRNS", "KC_TRNS", "KC_TRNS",
 
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
@@ -59,10 +59,23 @@
       "KC_TRNS", "KC_TRNS"
     ],
     [
+      "KC_1", "KC_2", "KC_3", "KC_4", "KC_5",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+
+      "KC_EXLM", "KC_LPRN", "KC_RPRN", "KC_TAB", "KC_GRV",
+      "KC_TRNS", "QK_BOOT", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+
+      "KC_SLSH", "KC_LT", "KC_GT", "KC_ESC", "KC_QUES",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+
+      "KC_TRNS", "KC_TRNS",
+      "KC_TRNS", "KC_TRNS"
+    ],
+    [
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
       "KC_6", "KC_7", "KC_8", "KC_9", "KC_0",
 
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "QK_BOOT", "KC_TRNS",
       "KC_MINS", "KC_ENT", "KC_LBRC", "KC_RBRC", "KC_SCLN",
 
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
@@ -70,19 +83,6 @@
 
       "KC_TRNS", "KC_TRNS",
       "KC_BSPC", "KC_DEL"
-    ],
-    [
-      "KC_1", "KC_2", "KC_3", "KC_4", "KC_5",
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
-
-      "KC_EXLM", "KC_LPRN", "KC_RPRN", "KC_TAB", "KC_GRV",
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
-
-      "KC_SLSH", "KC_LT", "KC_GT", "KC_ESC", "KC_QUES",
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
-
-      "KC_TRNS", "KC_TRNS",
-      "KC_TRNS", "KC_TRNS"
     ]
   ],
   "author": "@pierrec83"
